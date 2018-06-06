@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="esercitazione-23112017" Version="10.0.0" InternalType="Console">
+<CodeLite_Project Name="esercitazione-24112017" Version="10.0.0" InternalType="Console">
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,12 +93,10 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/uguali.c" ExcludeProjConfig="Debug;"/>
-    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/ricerca.c" ExcludeProjConfig="Debug;"/>
-    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/numero_nodi_livello.c" ExcludeProjConfig="Debug;"/>
-    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/get_max.c" ExcludeProjConfig="Debug;"/>
-    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/esiste_foglia.c" ExcludeProjConfig="Debug;"/>
-    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/altezza.c" ExcludeProjConfig=""/>
-    <File Name="main.c" ExcludeProjConfig="Debug;"/>
+    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-24-11-17/livello_numeroso.c"/>
+    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-24-11-17/lista_nodi_livello.c"/>
+    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-24-11-17/lista_foglie.c"/>
+    <File Name="../../../../../../../../../../Scaricati/esercitazione-c-24-11-17/array_nodi_livello.c"/>
+    <File Name="main.c"/>
   </VirtualDirectory>
 </CodeLite_Project>

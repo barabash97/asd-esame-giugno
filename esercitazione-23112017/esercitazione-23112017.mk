@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(ObjectSuffix) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(ObjectSuffix) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(ObjectSuffix) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(ObjectSuffix) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(ObjectSuffix) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(ObjectSuffix) $(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(ObjectSuffix) 
 
 
 
@@ -91,38 +91,6 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(ObjectSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/uguali.c $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/Scaricati/esercitazione-c-23-11-17/uguali.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(DependSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/uguali.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(ObjectSuffix) -MF$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(DependSuffix) -MM ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/uguali.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(PreprocessSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/uguali.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_uguali.c$(PreprocessSuffix) ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/uguali.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(ObjectSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/numero_nodi_livello.c $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/Scaricati/esercitazione-c-23-11-17/numero_nodi_livello.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(DependSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/numero_nodi_livello.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(ObjectSuffix) -MF$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(DependSuffix) -MM ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/numero_nodi_livello.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(PreprocessSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/numero_nodi_livello.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_numero_nodi_livello.c$(PreprocessSuffix) ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/numero_nodi_livello.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(ObjectSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/get_max.c $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/Scaricati/esercitazione-c-23-11-17/get_max.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(DependSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/get_max.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(ObjectSuffix) -MF$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(DependSuffix) -MM ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/get_max.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(PreprocessSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/get_max.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_get_max.c$(PreprocessSuffix) ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/get_max.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(ObjectSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/esiste_foglia.c $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/Scaricati/esercitazione-c-23-11-17/esiste_foglia.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(DependSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/esiste_foglia.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(ObjectSuffix) -MF$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(DependSuffix) -MM ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/esiste_foglia.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(PreprocessSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/esiste_foglia.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_esiste_foglia.c$(PreprocessSuffix) ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/esiste_foglia.c
-
 $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(ObjectSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/altezza.c $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "/home/darkness/Scaricati/esercitazione-c-23-11-17/altezza.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(DependSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/altezza.c
@@ -130,22 +98,6 @@ $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c
 
 $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(PreprocessSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/altezza.c
 	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_altezza.c$(PreprocessSuffix) ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/altezza.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(ObjectSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/ricerca.c $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/Scaricati/esercitazione-c-23-11-17/ricerca.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(DependSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/ricerca.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(ObjectSuffix) -MF$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(DependSuffix) -MM ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/ricerca.c
-
-$(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(PreprocessSuffix): ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/ricerca.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/up_up_up_up_up_up_up_up_up_up_Scaricati_esercitazione-c-23-11-17_ricerca.c$(PreprocessSuffix) ../../../../../../../../../../Scaricati/esercitazione-c-23-11-17/ricerca.c
-
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/Cloud/mega/University/Roma 3/2 ANNO/Algoritmi e strutture dati/code/src/sessione_estate2018/esercitazione-23112017/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
-
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
