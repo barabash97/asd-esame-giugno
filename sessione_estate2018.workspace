@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="sessione_estate2018" Database="" Version="10.0.0">
+  <Project Name="lista_con_array" Path="lista_con_array/lista_con_array.project" Active="No"/>
+  <Project Name="lista_tramite_oggetti" Path="lista_tramite_oggetti/lista_tramite_oggetti.project" Active="No"/>
+  <Project Name="esercitazione-23112017" Path="esercitazione-23112017/esercitazione-23112017.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="lista_con_array" ConfigName="Debug"/>
+      <Project Name="lista_tramite_oggetti" ConfigName="Debug"/>
+      <Project Name="esercitazione-23112017" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="lista_con_array" ConfigName="Release"/>
+      <Project Name="lista_tramite_oggetti" ConfigName="Release"/>
+      <Project Name="esercitazione-23112017" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
